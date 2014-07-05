@@ -1,0 +1,374 @@
+﻿/*
+Theme Name: SOLSYS Power Solutions, Inc.
+Theme URI: http://solsys.com.ph/
+Description: WordPress theme designed by Rene Guillen
+Version: 1.0
+Author: Rene Guillen
+Author URI: http://ReneGuillen.com
+Tags: clean, 
+*/
+
+/* NOTES:
+meteor-slides has been custmized. do not update.
+si-contact-form has been custmized. do not update.
+*/
+
+html {
+	background-color:#ffffff;
+	/*background: url(images/logo-bg.png) no-repeat bottom left;*/
+	margin:0 auto;
+	}
+
+body {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 12px;
+	}
+
+#wrapper {
+	width: 960px; 
+	margin: 0 auto; 
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 12px;
+	color: #333333;
+	}
+
+a:link,
+a:active,
+a:visited,
+a:hover {
+	color: #d29a00;
+	text-decoration: none;
+	}
+
+h3 {
+	color: #ffbb00;
+	font-size: 20px;
+	font-weight: normal;
+	}
+	
+.alignleft {float:left;}
+.alignright {float:right;}
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+.clearboth {clear:both;}
+
+.wp-caption-text {
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 10px;
+	padding: 0 3px 5px 3px;
+	margin: 0;
+	}
+
+/***************************
+HEADER
+***************************/	
+#header {
+	height:115px;
+	margin: 20px 0;
+	}
+#header .header .navigation a:link,
+#header .header .navigation a:active,
+#header .header .navigation a:visited {
+	color: #333333;
+	}
+#header .header .navigation li.current_page_item a:link,
+#header .header .navigation li.current_page_item a:active,
+#header .header .navigation li.current_page_item a:visited,
+#header .header .navigation a:hover {
+	color: #d29a00
+	}
+#header .logo a {
+	display: block;
+	float: left;
+	width: 182px;
+	}
+#header .header {
+	float: right;
+	width: 775;
+	text-align: right;
+	margin-top: 5px;
+	}
+#header .header .phoneinquire span {
+	font-size: 15px;
+	font-weight: bold;
+	display: block;
+	}
+#header .header .clientportal {
+	margin: 25px 0 20px 0;
+	font-size: 11px;
+	font-weight: bold;
+	color: #5a6a75;
+	}
+#header .header .clientportal span,
+#header .header .clientportal form,
+#header .header .clientportal input {
+	display: inline-block;
+	}
+#header .header .clientportal input[type="text"] {
+	width: 150px;
+	height: 26px;
+	border:0;
+	background: url(images/sprite.gif) 0px -63px;
+	padding: 0 3px;
+	font-size: 10px;
+	color: #cccccc;
+	}
+
+#header .header .clientportal input[type="submit"]#submit {
+	width: 71px;
+	height: 26px;
+	border:0;
+	background: url(images/sprite.gif) -8px -30px;
+	}
+#header .header .clientportal input[type="submit"]#demo {
+	width: 71px;
+	height: 26px;
+	border:0;
+	background: url(images/sprite.gif) -83px -30px;
+	}
+#header .header .navigation {
+	font-size: 11px;
+	font-weight: bold;
+	}
+#header .header .navigation ul {
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+	}
+#header .header .navigation li {
+	margin: 0;
+	padding: 5px 0 5px 30px;
+	display: inline-block;
+	text-transform: uppercase;
+	}
+#article .pagetitle {
+	width: 360px; 
+	height: 36px; 
+	padding: 34px 0 34px 600px;
+	display: block; 
+	background: url(images/bg-header-subpage.png);
+	margin-bottom: 50px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 300;
+	font-size: 34px;
+	color: #ffffff;
+	clear: both;
+	}
+#article .pagetitle a:link,
+#article .pagetitle a:active,
+#article .pagetitle a:visited,
+#article .pagetitle a:hover {
+	color: #ffffff;
+	}
+
+.entry { /* img 402px */
+	width: 490px;
+	text-align: justify;
+	}
+/***************************
+ARTICLE
+***************************/	
+#article .section {
+	margin-bottom: 25px;
+	}
+	
+/***************************
+SIDEBAR: aside
+***************************/
+#article .section .aside {
+	width: 228px;
+	float: left;
+	min-height: 200px;
+	padding: 0 25px 25px 0;
+	margin-bottom: 25px;
+	background: url(images/bg-vr-dotted.gif) repeat-y top right;
+	font-size: 11px;
+	font-weight: bold;
+	}
+#article .section .aside a:link,
+#article .section .aside a:active,
+#article .section .aside a:visited {
+	color: #5a6a75;
+	}
+#article .section .aside li.current_page_item a:link,
+#article .section .aside li.current_page_item a:active,
+#article .section .aside li.current_page_item a:visited,
+#article .section .aside a:hover {
+	color: #ffbb00;
+	}
+#article .section .aside ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	}
+#article .section .aside li {
+	margin-bottom: 15px;
+	text-transform: uppercase;
+	}
+#article .section .aside h5 {
+	display: none;
+	}
+/***************************
+HOME
+***************************/
+#article .section {
+	padding-bottom: 50px;
+	font-size: 12px;
+	}
+#article .section .shared {
+	width: 655px;
+	padding: 0 0 0 25px;
+	float: right;
+	}
+#article .section .homeboxfirst {
+	width: 300px;
+	float: left;
+	text-align: justify;
+	}
+#article .section .homebox {
+	width: 300px;
+	padding: 0 20px 0 30px;
+	float: left;
+	}
+#article .section .homebox ul {
+	margin:0;
+	padding:0;
+	list-style-type: none;
+	}
+#article .section .homebox li {
+	background: url(images/bullet.gif) no-repeat top left;
+	padding: 0 0 0 16px;
+	margin:0;
+	}
+#article .section .homebox a:link,
+#article .section .homebox a:active,
+#article .section .homebox a:visited { color: #333333 }
+#article .section .homebox a:hover { color: #d29a00; }
+
+#article .section .homeboxlast {
+	width: 300px;
+	float: left;
+	}
+
+
+a.pagethumbnail span {
+	/*margin: 0 30px 60px 30px;*/
+	margin: 0 15px 30px 15px;
+	opacity:0.5;
+	filter:alpha(opacity=50);
+	width: 150px; height:150px; display: inline-block;
+	}
+a.pagethumbnail span:hover {
+	opacity:1.00;
+	filter:alpha(opacity=100);
+	}
+	
+/***************************
+FOOTER
+***************************/
+#footer {
+	height: 30px;
+	width: 100%; 
+	background: url(images/bg-hr-dotted.gif) repeat-x top left;
+	text-align: right;
+	padding: 20px 0;
+	}
+#footer .wrap {
+	float:right;
+	margin: 5px;
+	}
+#footer a .facebook {
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	background: url(images/sprite.gif) 84px 0px;
+	}
+#footer a .twitter {
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	background: url(images/sprite.gif) 55px 0px;
+	}
+#footer a .email {
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	background: url(images/sprite.gif) 26px 0px;
+	}
+#footer a.greengeek {
+	/*
+	width: 120px;
+	height: 60px;
+	*/
+	width: 60px;
+	height: 30px;
+	display: inline-block;
+	float:right;
+	}
+	
+/***************************
+TWITTER BALLOON
+***************************/
+.twitterballoon div {
+	display: block;
+	margin: 10px 0;
+	}
+/***************************
+MODAL WINDOW
+***************************/
+.modal img { padding: 0 10px; }
+
+/***************************
+WIDGETS
+***************************/
+.widget_rss a:link,
+.widget_rss a:active,
+.widget_rss a:visited {
+	color: #333333;
+	}
+.widget_rss a:hover {
+	color: #d29a00;
+	}
+.widget_rss h3,
+.widget_rss .widget-title {
+	display: none;
+	}
+.widget_rss ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0; 
+	}
+.widget_rss li {
+	margin: 5px 0;
+	}
+/***************************
+CONTACT FORM
+***************************/
+#si_contact_form1 {}
+#si_contact_form1 input[type="email"],
+#si_contact_form1 input[type="text"]{
+	border: 1px solid #cccccc;
+	border-radius: 5px;
+	height:24px;
+	width: 300px;
+	}
+#si_contact_form1 input[type="text"]#si_contact_captcha_code1 {
+	width: 150px;
+	}
+#si_contact_form1 textarea{
+	border: 1px solid #cccccc;
+	border-radius: 5px;
+	height:250px;
+	width: 300px;
+	}
+#si_contact_form1 input[type="submit"] {
+	width: 71px;
+	height: 26px;
+	border:0;
+	background: url(images/sprite.gif) -8px -30px;
+	margin-left:225px;
+	display: block;
+	}
